@@ -1,0 +1,32 @@
+body{
+	background-color: #fff;
+	color: #000;
+}
+
+a{
+	color: black;
+	cursor: text;
+}
+
+body h1{
+	font-size: 45px;
+	margin-left: 480px;
+	margin-right: 480px;
+}
+
+body h2{
+	font-size: 35px;
+}
+
+body h3{
+	font-size: 35px;
+}
+
+body p{
+	font-size: 30px;
+}
+
+img{
+	max-width: 562px;
+	margin-left: 400px;
+}

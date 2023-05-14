@@ -1,0 +1,58 @@
+
+.style{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center ;
+    gap: 50px;
+}
+
+.grid-contact{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0px 45px 0px 45px;
+}
+
+.contact-sub-heading{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 0px;
+    color: #E91C28;
+}
+
+.contact-content{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin: 0px;
+    font-weight: 500;
+}
+
+a{
+  color: #000;
+}
+
+
+.style{
+    font-family: 'Poppins', sans-serif;
+    color: #E91C28;
+    text-align: center;
+    font-size: 68px;
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.grid-contact{
+        display: block;
+    } 
+}
